@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+.maindiv_content{
+  background-color: #EBF2F7;
+  overflow-x: hidden;
+}
+.sidebar{
+  background-color: #EAF1F7;
+}
+.feedbackbtn{
+  font-size: 22px;
+  font-weight: 500;
+}
+.btnbg{
+  background-color: #98EEC8;
+
+}
+.viewimg img{
+  width: 50px;
+}
+.modal{
+  --bs-modal-width: 180vh !important;
+  max-width: 100%;
+  --bs-modal-height:100vh !important;
+  max-height:"100%"
+}
+.modal-dialog {
+margin-right: unset !important;
+margin: unset !important;
+}
+.feedbackbtn{
+  background-color: #ECA4A7;
+  font-size: 18px;
+}
+.submitbtn{
+  background-color:  #5CC8A1;
+  font-size: 20px;
+  font-weight: 500;
+}
+.submitbtn:hover{
+  background: #5CC8A1 !important;
+}
+.viewimg .nav-pills .nav-link.active{
+  background-color:#5CC8A1 !important ;
+border-radius: 0 !important;
+}
+.viewimg ul li .nav-link{
+  background-color:#DEE6ED ;
+  border-radius: 0 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

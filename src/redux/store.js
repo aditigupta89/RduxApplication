@@ -1,5 +1,5 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
-import FeatureReducer from './featuresSlice'; // Ensure the correct path to your reducer
+import FeatureReducer from './featuresSlice'; 
 
 const rootReducer = combineReducers({
   feature: FeatureReducer,
